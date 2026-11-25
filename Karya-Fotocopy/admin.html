@@ -1,0 +1,6 @@
+<!DOCTYPE html><html lang="id"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Dashboard Mitra</title><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="css/style.css"></head><body><header id="nav"></header><main class="wrap"><section style="padding-top:48px"><h1 style="font-size:2rem">Dashboard mitra</h1>
+<div class="grid"><div class="card">Pesanan hari ini<div class="total" id="sPesanan">0</div></div><div class="card">Kas tunai hari ini<div class="total" id="sTunai"></div></div>
+<div class="card">Kas QRIS hari ini<div class="total" id="sQris"></div></div><div class="card">Perlu dikerjakan<div class="total" id="sProses">0</div></div></div>
+<div style="display:flex;gap:10px;margin:20px 0"><input id="cari" placeholder="Cari kode atau nama"><select id="fStatus"><option value="">Semua status</option><option>Diterima</option><option>Diproses</option><option>Selesai</option><option>Siap Diambil</option></select></div>
+<div style="overflow-x:auto"><table><thead><tr><th>Kode</th><th>Nama</th><th>Layanan</th><th>File</th><th>Total</th><th>Status</th></tr></thead><tbody id="adminBody"></tbody></table></div></section></main>
+<div id="foot"></div><script src="js/app.js"></script></body></html>
